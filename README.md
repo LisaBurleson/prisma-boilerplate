@@ -44,12 +44,12 @@ hooks:
 Prisma uses a "schema/SDL-first" methodology [see https://www.prisma.io/blog/the-problems-of-schema-first-graphql-development-x1mn4cb0tyl3 ]
 
 The development lifecycle will be:
-  0) **precond**: servers are running via `docker-compose up -d`
-  1) update the schema in datamodel.prisma
-  2) push the changes to the prisma server via `prisma deploy`, look for any errors
-  3) repeat as often as desired
-  3.5) you can also generate the javascript/typescript client code too via `prisma generate` and it will create the files in the generated dir
-  4) **postcond**: when done with development, `docker-compose down`
+  1. **precond**: servers are running via `docker-compose up -d`
+  1. update the schema in datamodel.prisma
+  1. push the changes to the prisma server via `prisma deploy`, look for any errors
+  1. repeat as often as desired
+  1. you can also generate the javascript/typescript client code too via `prisma generate` and it will create the files in the generated dir
+  1. **postcond**: when done with development, `docker-compose down`
 
 If the server isn't running but you don't see any errors, peek into the prisma docker container by:
 1) `docker ps` to find the prismagraphql container id
