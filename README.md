@@ -60,4 +60,10 @@ I wanted to remove my past iterations of database data saved on the local filesy
   * `docker volume rm {vol 1} {vol 2} ...{vol N}` to remove all the un-needed data
 
 ## links
-https://www.prisma.io/docs/get-started/01-setting-up-prisma-new-database-JAVASCRIPT-a002/
+  * https://www.prisma.io/docs/get-started/01-setting-up-prisma-new-database-JAVASCRIPT-a002/
+  * https://bit.ly/2VmMuw9
+
+dataloader:
+ - https://www.youtube.com/watch?v=ld2_AS4l19g&t=57s
+ - https://www.youtube.com/watch?v=_FQ1ZEWIn2s
+
