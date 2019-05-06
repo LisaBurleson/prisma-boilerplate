@@ -55,5 +55,9 @@ If the server isn't running but you don't see any errors, peek into the prisma d
 1) `docker ps` to find the prismagraphql container id
 2) `docker logs -f {container id}` (only the first few chars are sufficient) 
 
+I wanted to remove my past iterations of database data saved on the local filesystem, but that is manage by docker, so:
+  * `docker volume ls` to find the volumes created
+  * `docker volume rm {vol 1} {vol 2} ...{vol N}` to remove all the un-needed data
+
 ## links
 https://www.prisma.io/docs/get-started/01-setting-up-prisma-new-database-JAVASCRIPT-a002/
