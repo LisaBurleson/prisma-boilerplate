@@ -29,7 +29,7 @@ I don't like the postgres default names, "default/$default". Can't even execute 
           schema: {desired schema name}
 ```
 
-Update the `prism.yml` to generate client code every time schema changes are deployed to the prisma server.
+Update the `prisma.yml` to generate client code every time schema changes are deployed to the prisma server.
 
 ```yaml
 generate:
